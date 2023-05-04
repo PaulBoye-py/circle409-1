@@ -26,7 +26,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: 'https://paulboye-py.github.io/circle409-1/'
+      url: https://paulboye-py.github.io/circle409-1/
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
